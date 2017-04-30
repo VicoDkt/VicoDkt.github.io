@@ -4,3 +4,10 @@ font-size: 40px;
 font-family: Comic sans ms;
 text-align: center;
 }
+
+p{
+  color: grey;
+  text-align:center;
+  font-family: Comic sans ms;
+  font-size: 30px;
+}
