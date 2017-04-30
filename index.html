@@ -2,11 +2,25 @@
 <html>
 <head>
 	<title>Page n°1</title>
-	<link rel="stylesheet" href="./style/style.css">
-	<script src="./script/script.js"></script>
+	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+	<script src="script.js"></script>
+	<script type="text/javascript">homePageLoading();</script>
 </head>
 <body>
 	<h1>First header</h1>
 	<p>First paragraph</p>
+	<input type="button" value="Go to bitcoin index page" onclick="window.location.href='bitcoin/index.html'"/>
+	<input type="button" value="Go to explorer page" onclick="window.location.href='bitcoin/explorer/index.html'"/>
+	<div class="row">
+	<div class="col-lg-12 col-xs-6">
+    	<pre>
+        	<code id="demo" class="json kljs"></code>
+    	</pre>
+	</div>
+	</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="../custom.js"></script>
 </body>
 </html>
