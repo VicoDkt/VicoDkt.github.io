@@ -1,0 +1,22 @@
+h1
+{
+color: black;
+font-size: 40px;
+font-family: Calibri;
+text-align: center;
+}
+
+p
+{
+  color: black;
+  text-align:center;
+  font-family: Calibri;
+  font-size: 30px;
+}
+
+body
+{
+  background-image:url("/Bourse.jpg");
+  background-position: right top;
+  background-attachment: fixed;
+}
