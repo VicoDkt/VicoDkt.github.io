@@ -11,3 +11,9 @@ p{
   font-family: Comic sans ms;
   font-size: 30px;
 }
+
+body{
+  background-image:url("/Bourse.jpg");
+  background-position: right top;
+  background-attachment: fixed;
+}
